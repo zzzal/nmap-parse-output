@@ -12,8 +12,6 @@
             <xsl:value-of select="service/@name"/><xsl:text>;</xsl:text>
             <xsl:value-of select="service/@product"/><xsl:text>;</xsl:text>
             <xsl:value-of select="service/@version"/><xsl:text>;</xsl:text>
-            <xsl:value-of select="script[@id='http-server-header']/@output"/><xsl:text>;</xsl:text>
-            <xsl:value-of select="script[@id='http-title']/elem[@key='title']"/>
             <xsl:text>
 </xsl:text>
         </xsl:if>
